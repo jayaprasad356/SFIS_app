@@ -1,18 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
     tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/carpng" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_gravity="center"
+        android:fontFamily="@font/urbanistblack"
+        android:gravity="center"
+        android:text="Login to Your Account"
+        android:textColor="@color/textcolor"
+        android:textSize="20dp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ic_edittextbf">
+
+        <EditText
+            android:id="@+id/etmobnum"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:inputType="number"
+
+            android:layout_marginRight="5dp"
+            android:background="@null"
+            android:hint="Mobile Number" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/contiuebtn"
+        android:layout_width="328dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_shade"
+        android:fontFamily="@font/urbanbold"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:text="Continue"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don’t have an account?" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/urbanistblack"
+            android:text="SignUp"
+            android:textColor="@color/textcolor" />
+
+    </LinearLayout>
+</LinearLayout>
