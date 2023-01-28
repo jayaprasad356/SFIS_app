@@ -8,4 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="textcolor">#101010</color>
+    <color name="textsilver">#757575</color>
+    <color name="cardview">#e7e7e7</color>
 </resources>
