@@ -22,4 +22,5 @@
     <string name="rto_noffice">RTO\nOffice</string>
     <string name="financial_services">Financial Services</string>
     <string name="apply_loan">Apply Loan</string>
+    <string name="rc_details">RC Details</string>
 </resources>
