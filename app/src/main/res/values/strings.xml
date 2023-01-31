@@ -33,4 +33,7 @@
     <string name="expiring_in_50_days">Expiring in 50 days</string>
     <string name="expiring_in_11_days">Expiring in 11 days</string>
     <string name="we_will_remind_you_on_12th_feb_2023">We will remind you on 12th feb 2023</string>
+    <string name="share_your_referral_code_with_a_friend">Share your referral code with a friend</string>
+    <string name="copy">Copy</string>
+    <string name="referral">Referral</string>
 </resources>
