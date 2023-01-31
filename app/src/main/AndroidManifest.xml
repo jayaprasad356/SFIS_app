@@ -20,7 +20,7 @@
             android:name=".RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".MyDairy"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,7 +32,7 @@
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".MyDairy"
             android:exported="false" />
         <activity
             android:name=".Verification"

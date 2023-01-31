@@ -175,6 +175,7 @@
         android:layout_marginTop="20dp">
         <EditText
             android:layout_width="match_parent"
+            android:inputType="number"
             android:layout_height="match_parent"
             android:hint="Customer number ( optional )"
             android:background="@null"
@@ -201,6 +202,7 @@
         android:textColor="@color/white"
         android:textSize="16sp" />
     <Button
+        android:id="@+id/mydairy"
         android:layout_width="140dp"
         android:layout_height="60dp"
         android:background="@drawable/btn_shade"

@@ -41,6 +41,9 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
                 android:fontFamily="@font/urbanbold" />
 
         </LinearLayout>
@@ -55,6 +58,9 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
                 android:fontFamily="@font/urbanbold" />
 
         </LinearLayout>
@@ -69,6 +75,9 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
                 android:fontFamily="@font/urbanbold" />
 
         </LinearLayout>
@@ -83,6 +92,9 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
                 android:fontFamily="@font/urbanbold" />
 
         </LinearLayout>
@@ -97,6 +109,9 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
                 android:fontFamily="@font/urbanbold" />
 
         </LinearLayout>
@@ -111,6 +126,9 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
                 android:fontFamily="@font/urbanbold" />
 
         </LinearLayout>
@@ -118,7 +136,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/contiuebtn"
+        android:id="@+id/contiuebtnn"
         android:layout_width="328dp"
         android:layout_height="60dp"
         android:layout_marginTop="100dp"

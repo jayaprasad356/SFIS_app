@@ -65,6 +65,7 @@
 
         <com.google.android.material.card.MaterialCardView
             android:layout_width="316dp"
+            android:id="@+id/rcdetail"
             android:layout_height="134dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="18dp"
@@ -100,7 +101,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -240,6 +241,8 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/ic_scrollbg"
                         android:gravity="center"
+                        android:layout_marginRight="20dp"
+
                         android:orientation="vertical">
 
                         <ImageView
@@ -283,7 +286,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -423,6 +426,8 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/ic_scrollbg"
                         android:gravity="center"
+                        android:layout_marginRight="20dp"
+
                         android:orientation="vertical">
 
                         <ImageView
@@ -466,7 +471,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -607,6 +612,8 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/ic_scrollbg"
                         android:gravity="center"
+                        android:layout_marginRight="20dp"
+
                         android:orientation="vertical">
 
                         <ImageView
@@ -650,14 +657,13 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
 
                 android:orientation="horizontal">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
+                    android:layout_marginLeft="20dp"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -689,7 +695,7 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
+                    android:layout_marginLeft="20dp"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -721,7 +727,7 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
+                    android:layout_marginLeft="20dp"
                     android:gravity="center"
 
                     android:orientation="vertical">

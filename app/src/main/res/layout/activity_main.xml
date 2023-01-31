@@ -45,7 +45,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/contiuebtn"
+        android:id="@+id/contiuebtnn"
         android:layout_width="328dp"
         android:layout_height="60dp"
         android:layout_marginTop="30dp"

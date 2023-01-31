@@ -59,6 +59,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="Mobile Number"
+            android:inputType="number"
+            android:maxLength="10"
             android:background="@null"
             android:layout_marginHorizontal="10dp"/>
     </LinearLayout>
@@ -98,6 +100,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="City"
+            android:inputType="number"
+            android:maxLength="6"
             android:background="@null"
             android:layout_marginHorizontal="10dp"/>
     </LinearLayout>
@@ -124,10 +128,12 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="Refercode"
+            android:inputType="number"
             android:background="@null"
             android:layout_marginHorizontal="10dp"/>
     </LinearLayout>
     <Button
+        android:id="@+id/signup"
         android:layout_width="328dp"
         android:layout_height="60dp"
         android:layout_marginTop="60dp"
