@@ -17,10 +17,11 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_20sdp"
             android:fontFamily="@font/urbanbold"
             android:text="@string/hello"
+            android:textSize="@dimen/_14sdp"
             android:textColor="@color/textsilver" />
 
         <LinearLayout
@@ -31,12 +32,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
+                android:layout_marginLeft="@dimen/_15sdp"
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/urbansemibold"
                 android:text="@string/nandha"
                 android:textColor="@color/black"
-                android:textSize="20sp" />
+                android:textSize="@dimen/_20sdp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -45,33 +46,33 @@
                 android:gravity="end">
 
                 <ImageView
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
                     android:src="@drawable/usre" />
 
                 <ImageView
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
-                    android:layout_marginLeft="15dp"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_marginLeft="@dimen/_15sdp"
                     android:src="@drawable/setting" />
 
                 <ImageView
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
                     android:layout_marginHorizontal="10dp"
                     android:src="@drawable/share" />
             </LinearLayout>
         </LinearLayout>
 
         <com.google.android.material.card.MaterialCardView
-            android:layout_width="316dp"
+            android:layout_width="@dimen/_290sdp"
             android:id="@+id/rcdetail"
-            android:layout_height="134dp"
+            android:layout_height="@dimen/_130sdp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="18dp"
+            android:layout_marginTop="@dimen/_15sdp"
             android:backgroundTint="@color/cardview"
-            android:padding="10dp"
-            app:cardCornerRadius="12dp">
+            android:padding="@dimen/_10sdp"
+            app:cardCornerRadius="@dimen/_10sdp">
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -85,29 +86,29 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_25sdp"
             android:fontFamily="@font/urbansemibold"
             android:text="@string/services"
             android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:textSize="@dimen/_18sdp" />
 
         <HorizontalScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:scrollbars="none"
-            android:layout_marginTop="20dp">
+            android:layout_marginTop="@dimen/_18sdp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="20dp"
+                android:layout_marginRight="@dimen/_20sdp"
                 android:orientation="horizontal">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
+                    android:layout_marginLeft="@dimen/_25sdp"
                     android:orientation="vertical">
 
 
@@ -138,7 +139,7 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
+                    android:layout_marginLeft="@dimen/_20sdp"
                     android:orientation="vertical">
 
 
@@ -169,7 +170,7 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
+                    android:layout_marginLeft="@dimen/_20sdp"
                     android:orientation="vertical">
 
 
@@ -200,7 +201,7 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
+                    android:layout_marginLeft="@dimen/_20sdp"
                     android:orientation="vertical">
 
 
@@ -231,7 +232,7 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
+                    android:layout_marginLeft="@dimen/_20sdp"
 
                     android:orientation="vertical">
 
@@ -241,7 +242,7 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/ic_scrollbg"
                         android:gravity="center"
-                        android:layout_marginRight="20dp"
+                        android:layout_marginRight="@dimen/_20sdp"
 
                         android:orientation="vertical">
 
@@ -270,29 +271,29 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_20sdp"
             android:fontFamily="@font/urbansemibold"
             android:text="@string/rc_services"
             android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:textSize="@dimen/_18sdp" />
 
         <HorizontalScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:scrollbars="none"
-            android:layout_marginTop="20dp">
+            android:layout_marginTop="@dimen/_18sdp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="20dp"
+                android:layout_marginRight="@dimen/_20sdp"
                 android:orientation="horizontal">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
+                    android:layout_marginLeft="@dimen/_20sdp"
                     android:orientation="vertical">
 
 
@@ -323,7 +324,7 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
+                    android:layout_marginLeft="@dimen/_20sdp"
                     android:orientation="vertical">
 
 
@@ -354,7 +355,7 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
+                    android:layout_marginLeft="@dimen/_20sdp"
                     android:orientation="vertical">
 
 
@@ -385,7 +386,7 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
+                    android:layout_marginLeft="@dimen/_20sdp"
                     android:orientation="vertical">
 
 
@@ -416,7 +417,7 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
+                    android:layout_marginLeft="@dimen/_20sdp"
 
                     android:orientation="vertical">
 
@@ -426,7 +427,7 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/ic_scrollbg"
                         android:gravity="center"
-                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="@dimen/_20sdp"
 
                         android:orientation="vertical">
 
@@ -455,29 +456,29 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_18sdp"
             android:fontFamily="@font/urbansemibold"
             android:text="@string/nearby_places"
             android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:textSize="@dimen/_18sdp" />
 
         <HorizontalScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:scrollbars="none"
-            android:layout_marginTop="20dp">
+            android:layout_marginTop="@dimen/_18sdp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="20dp"
+                android:layout_marginLeft="@dimen/_20sdp"
                 android:orientation="horizontal">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
+                    android:layout_marginLeft="@dimen/_20sdp"
                     android:orientation="vertical">
 
 
@@ -509,7 +510,7 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
+                    android:layout_marginLeft="@dimen/_20sdp"
                     android:orientation="vertical">
 
 
@@ -540,7 +541,7 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
+                    android:layout_marginLeft="@dimen/_20sdp"
                     android:orientation="vertical">
 
 
@@ -571,7 +572,7 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
+                    android:layout_marginLeft="@dimen/_20sdp"
                     android:orientation="vertical">
 
 
@@ -602,7 +603,7 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
+                    android:layout_marginLeft="@dimen/_20sdp"
 
                     android:orientation="vertical">
 
@@ -612,7 +613,7 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/ic_scrollbg"
                         android:gravity="center"
-                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="@dimen/_20sdp"
 
                         android:orientation="vertical">
 
@@ -641,18 +642,18 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
             android:fontFamily="@font/urbansemibold"
             android:text="@string/financial_services"
             android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:textSize="@dimen/_18sdp" />
 
         <HorizontalScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:scrollbars="none"
-            android:layout_marginTop="20dp">
+            android:layout_marginTop="@dimen/_18sdp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -663,7 +664,7 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginLeft="@dimen/_20sdp"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -689,13 +690,14 @@
                         android:layout_gravity="center_horizontal"
                         android:fontFamily="@font/urbanbold"
                         android:gravity="center"
+                        android:textSize="@dimen/_11sdp"
                         android:text="Apply Credit\nCard" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginLeft="@dimen/_20sdp"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -721,13 +723,14 @@
                         android:layout_gravity="center_horizontal"
                         android:fontFamily="@font/urbanbold"
                         android:gravity="center"
+                        android:textSize="@dimen/_11sdp"
                         android:text="@string/apply_loan" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginLeft="@dimen/_20sdp"
                     android:gravity="center"
 
                     android:orientation="vertical">
@@ -754,6 +757,7 @@
                         android:layout_gravity="center_horizontal"
                         android:fontFamily="@font/urbanbold"
                         android:gravity="center"
+                        android:textSize="@dimen/_11sdp"
                         android:text="Apply Bank\nAccount" />
                 </LinearLayout>
 

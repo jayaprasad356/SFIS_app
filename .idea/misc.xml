@@ -3,20 +3,41 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/SFIS_app/app/src/main/res/drawable/blurbtnbg.xml" value="0.2265" />
         <entry key="..\:/SFIS_app/app/src/main/res/drawable/btn_shade.xml" value="0.2225" />
+        <entry key="..\:/SFIS_app/app/src/main/res/drawable/ic_analitics.xml" value="0.2265" />
+        <entry key="..\:/SFIS_app/app/src/main/res/drawable/ic_backbtn.xml" value="0.2265" />
+        <entry key="..\:/SFIS_app/app/src/main/res/drawable/ic_bank.xml" value="0.2265" />
+        <entry key="..\:/SFIS_app/app/src/main/res/drawable/ic_bikeinsurance.xml" value="0.2265" />
         <entry key="..\:/SFIS_app/app/src/main/res/drawable/ic_btnbg.xml" value="0.2225" />
+        <entry key="..\:/SFIS_app/app/src/main/res/drawable/ic_carinsurance.xml" value="0.2265" />
+        <entry key="..\:/SFIS_app/app/src/main/res/drawable/ic_carwash.xml" value="0.2265" />
+        <entry key="..\:/SFIS_app/app/src/main/res/drawable/ic_chargingstation.xml" value="0.2265" />
+        <entry key="..\:/SFIS_app/app/src/main/res/drawable/ic_cheakchallanbg.xml" value="0.2265" />
+        <entry key="..\:/SFIS_app/app/src/main/res/drawable/ic_cheakfasttag.xml" value="0.2265" />
+        <entry key="..\:/SFIS_app/app/src/main/res/drawable/ic_cheakinsurance.xml" value="0.2265" />
+        <entry key="..\:/SFIS_app/app/src/main/res/drawable/ic_createedoutline.xml" value="0.2265" />
+        <entry key="..\:/SFIS_app/app/src/main/res/drawable/ic_creditcard.xml" value="0.2265" />
         <entry key="..\:/SFIS_app/app/src/main/res/drawable/ic_editbg.xml" value="0.2225" />
         <entry key="..\:/SFIS_app/app/src/main/res/drawable/ic_edittextbf.xml" value="0.2225" />
+        <entry key="..\:/SFIS_app/app/src/main/res/drawable/ic_loan.xml" value="0.2265" />
+        <entry key="..\:/SFIS_app/app/src/main/res/drawable/ic_location.xml" value="0.2265" />
+        <entry key="..\:/SFIS_app/app/src/main/res/drawable/ic_mechanic.xml" value="0.2265" />
         <entry key="..\:/SFIS_app/app/src/main/res/drawable/ic_mydairyvi.xml" value="0.279" />
         <entry key="..\:/SFIS_app/app/src/main/res/drawable/ic_otpbg.xml" value="0.2225" />
+        <entry key="..\:/SFIS_app/app/src/main/res/drawable/ic_petrolpump.xml" value="0.2265" />
         <entry key="..\:/SFIS_app/app/src/main/res/drawable/ic_rectangle_24444.xml" value="0.2265" />
+        <entry key="..\:/SFIS_app/app/src/main/res/drawable/ic_scrollbg.xml" value="0.2265" />
+        <entry key="..\:/SFIS_app/app/src/main/res/drawable/ic_search.xml" value="0.2265" />
+        <entry key="..\:/SFIS_app/app/src/main/res/drawable/ic_vahan.xml" value="0.2265" />
+        <entry key="..\:/SFIS_app/app/src/main/res/drawable/ic_vahanservices.xml" value="0.2265" />
         <entry key="..\:/SFIS_app/app/src/main/res/font/font.xml" value="0.30364583333333334" />
         <entry key="..\:/SFIS_app/app/src/main/res/font/fontt.xml" value="0.227734375" />
         <entry key="..\:/SFIS_app/app/src/main/res/font/poppins_medium.xml" value="0.3046875" />
         <entry key="..\:/SFIS_app/app/src/main/res/layout/activity_home.xml" value="0.264" />
         <entry key="..\:/SFIS_app/app/src/main/res/layout/activity_main.xml" value="0.2712300566134843" />
         <entry key="..\:/SFIS_app/app/src/main/res/layout/activity_my_dairy.xml" value="0.264" />
-        <entry key="..\:/SFIS_app/app/src/main/res/layout/activity_rcdetail.xml" value="0.2" />
+        <entry key="..\:/SFIS_app/app/src/main/res/layout/activity_rcdetail.xml" value="0.264" />
         <entry key="..\:/SFIS_app/app/src/main/res/layout/activity_register.xml" value="0.27447916666666666" />
         <entry key="..\:/SFIS_app/app/src/main/res/layout/activity_verification.xml" value="0.264" />
       </map>

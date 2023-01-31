@@ -7,214 +7,240 @@
     android:background="@color/white"
     android:orientation="vertical"
     tools:context=".RCDetail">
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_marginTop="10dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
         android:orientation="horizontal">
+
         <ImageView
-            android:layout_width="35dp"
-            android:layout_height="35dp"
-            android:src="@drawable/ic_backbtn"/>
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/ic_backbtn" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginLeft="130dp"
+            android:layout_marginLeft="@dimen/_90sdp"
             android:fontFamily="@font/urbanistblack"
             android:gravity="center_horizontal"
             android:text="@string/rc_details"
             android:textColor="@color/textcolor"
-            android:textSize="20dp" />
+            android:textSize="@dimen/_15sdp" />
+
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/share"
             android:layout_gravity="center"
-            android:layout_marginLeft="100dp"/>
+            android:layout_marginLeft="@dimen/_90sdp"
+            android:src="@drawable/share" />
     </LinearLayout>
+
     <com.google.android.material.card.MaterialCardView
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:paddingBottom="50dp"
-        android:background="@color/rcdetailcard"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="30dp">
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@color/rcdetailcard"
+        android:paddingBottom="@dimen/_50sdp">
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_marginLeft="15dp"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_15sdp"
             android:orientation="vertical">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/textsilver"
                 android:fontFamily="@font/urbanbold"
-                android:text="Vehicle registration number"/>
+                android:text="Vehicle registration number"
+                android:textColor="@color/textsilver" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/urbanbold"
+                android:text="TN 50 NB 7012"
                 android:textColor="@color/black"
-                android:textSize="16sp"
-                android:layout_marginTop="10dp"
-                android:fontFamily="@font/urbanbold"
-                android:text="TN 50 NB 7012"/>
+                android:textSize="@dimen/_12sdp" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/textsilver"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="@dimen/_15sdp"
                 android:fontFamily="@font/urbanbold"
-                android:text="Owner’s name"/>
+                android:text="Owner’s name"
+                android:textColor="@color/textsilver" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="@font/urbanbold"
+
+                android:text="Nandha"
                 android:textColor="@color/black"
-                android:textSize="16sp"
-                android:layout_marginTop="10dp"
-                android:fontFamily="@font/urbanbold"
-                android:text="Nandha"/>
+                android:textSize="@dimen/_12sdp" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/textsilver"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="@dimen/_15sdp"
                 android:fontFamily="@font/urbanbold"
-                android:text="Vehicle make"/>
+                android:text="Vehicle make"
+                android:textColor="@color/textsilver" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="@font/urbanbold"
+                android:text="Suzuki India Ltd"
                 android:textColor="@color/black"
-                android:textSize="16sp"
-                android:layout_marginTop="10dp"
-                android:fontFamily="@font/urbanbold"
-                android:text="Suzuki India Ltd"/>
+                android:textSize="@dimen/_12sdp" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/textsilver"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="@dimen/_15sdp"
                 android:fontFamily="@font/urbanbold"
-                android:text="Vehicle model"/>
+                android:text="Vehicle model"
+                android:textColor="@color/textsilver" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="@font/urbanbold"
+                android:text="Skyline GTR"
                 android:textColor="@color/black"
-                android:textSize="16sp"
-                android:layout_marginTop="10dp"
-                android:fontFamily="@font/urbanbold"
-                android:text="Skyline GTR"/>
+                android:textSize="@dimen/_12sdp" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/textsilver"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="@dimen/_15sdp"
                 android:fontFamily="@font/urbanbold"
-                android:text="Registration date"/>
+                android:text="Registration date"
+                android:textColor="@color/textsilver" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="@font/urbanbold"
+                android:text="24-09-2020"
                 android:textColor="@color/black"
-                android:textSize="16sp"
-                android:layout_marginTop="10dp"
-                android:fontFamily="@font/urbanbold"
-                android:text="24-09-2020"/>
+                android:textSize="@dimen/_12sdp" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/textsilver"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="@dimen/_15sdp"
                 android:fontFamily="@font/urbanbold"
-                android:text="Insurance till"/>
+                android:text="Insurance till"
+                android:textColor="@color/textsilver" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="@font/urbanbold"
+                android:text="24-09-2024"
                 android:textColor="@color/black"
-                android:textSize="16sp"
-                android:layout_marginTop="10dp"
-                android:fontFamily="@font/urbanbold"
-                android:text="24-09-2024"/>
+                android:textSize="@dimen/_12sdp" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/textsilver"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="@dimen/_15sdp"
                 android:fontFamily="@font/urbanbold"
-                android:text="Challans"/>
+                android:text="Challans"
+                android:textColor="@color/textsilver" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:fontFamily="@font/urbanbold"
+                android:text="No"
                 android:textColor="@color/black"
-                android:textSize="16sp"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="20dp"
-                android:fontFamily="@font/urbanbold"
-                android:text="No"/>
+                android:textSize="@dimen/_12sdp" />
 
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:background="@drawable/ic_editbg"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp">
+        android:layout_marginTop="@dimen/_15sdp"
+        android:background="@drawable/ic_editbg">
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="Customer name ( optional )"
+            android:layout_marginHorizontal="@dimen/_10sdp"
             android:background="@null"
-            android:layout_marginHorizontal="10dp"/>
+            android:hint="Customer name ( optional )" />
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/ic_editbg"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp">
+        android:layout_marginTop="@dimen/_15sdp"
+        android:background="@drawable/ic_editbg">
+
         <EditText
             android:layout_width="match_parent"
-            android:inputType="number"
             android:layout_height="match_parent"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:background="@null"
             android:hint="Customer number ( optional )"
-            android:background="@null"
-            android:layout_marginHorizontal="10dp"/>
+            android:inputType="number" />
     </LinearLayout>
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    android:layout_marginTop="20dp"
-    android:gravity="center">
 
-    <Button
-        android:layout_width="140dp"
-        android:layout_height="60dp"
-        android:background="@drawable/btn_shade"
-        android:fontFamily="@font/urbanbold"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
         android:gravity="center"
-        android:orientation="horizontal"
-        android:text="Check new RC"
-        android:layout_gravity="center_horizontal"
-        android:textAlignment="center"
-        android:textAllCaps="false"
-        android:textColor="@color/white"
-        android:textSize="16sp" />
-    <Button
-        android:id="@+id/mydairy"
-        android:layout_width="140dp"
-        android:layout_height="60dp"
-        android:background="@drawable/btn_shade"
-        android:fontFamily="@font/urbanbold"
-        android:gravity="center"
-        android:orientation="horizontal"
-        android:layout_marginLeft="45dp"
-        android:text="Diary home"
-        android:layout_gravity="center_horizontal"
-        android:textAlignment="center"
-        android:textAllCaps="false"
-        android:textColor="@color/white"
-        android:textSize="16sp" />
-</LinearLayout>
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_shade"
+            android:fontFamily="@font/urbanbold"
+            android:orientation="horizontal"
+            android:text="Check new RC"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp" />
+
+        <Button
+            android:id="@+id/mydairy"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:background="@drawable/btn_shade"
+            android:fontFamily="@font/urbanbold"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:text="Diary home"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp" />
+    </LinearLayout>
 </LinearLayout>

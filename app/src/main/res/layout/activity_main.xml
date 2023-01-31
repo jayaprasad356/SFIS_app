@@ -13,7 +13,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="@dimen/_10sdp"
         android:src="@drawable/carpng" />
 
     <TextView
@@ -24,31 +24,31 @@
         android:gravity="center"
         android:text="Login to Your Account"
         android:textColor="@color/textcolor"
-        android:textSize="20dp" />
+        android:textSize="@dimen/_18sdp" />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="@dimen/_25sdp"
         android:background="@drawable/ic_edittextbf">
 
         <EditText
             android:id="@+id/etmobnum"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginLeft="5dp"
+            android:layout_marginLeft="@dimen/_5sdp"
             android:inputType="number"
 
-            android:layout_marginRight="5dp"
+            android:layout_marginRight="@dimen/_5sdp"
             android:background="@null"
             android:hint="Mobile Number" />
     </LinearLayout>
 
     <Button
         android:id="@+id/contiuebtnn"
-        android:layout_width="328dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="30dp"
+        android:layout_width="@dimen/_270sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_30sdp"
         android:background="@drawable/btn_shade"
         android:fontFamily="@font/urbanbold"
         android:gravity="center"
@@ -57,26 +57,28 @@
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="@color/white"
-        android:textSize="16sp" />
+        android:textSize="@dimen/_15sdp" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="@dimen/_90sdp"
         android:gravity="center"
         android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="@dimen/_13sdp"
             android:text="Don’t have an account?" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="@dimen/_3sdp"
             android:fontFamily="@font/urbanistblack"
             android:text="SignUp"
+            android:textSize="@dimen/_13sdp"
             android:textColor="@color/textcolor" />
 
     </LinearLayout>
