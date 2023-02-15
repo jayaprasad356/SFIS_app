@@ -8,8 +8,7 @@ import android.view.ViewGroup;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 
-import com.example.autobot.R;
-
+import com.graymatter.sfis.R;
 
 
 public class ProgressDisplay {
