@@ -30,11 +30,9 @@ class RcSearchActivity : AppCompatActivity() {
                     val jsonObject = JSONObject(response)
                     if (jsonObject.getString("status")!!.contentEquals("SUCCESS")) {
                         val `object` = JSONObject(response)
-                        val jsonArray: JSONArray? = `object`.getJSONArray("vehicleDetails")
+                        val jsonArray: JSONObject? = `object`.getJSONObject("vehicleDetails")
                         try {
-                            for(i in jsonArray!!.toString().indices) {
-                                val obj1 = jsonArray.getJSONObject(i)
-                                obj1.let {
+                                jsonArray.let {
                                     bikeName.text = it!!.getString("manufacturer")
                                     bikeModel.text = it.getString("manufacturer_model") ?: ""
                                     validDate.text= it.getString("insurance_validity") ?: ""
@@ -49,10 +47,6 @@ class RcSearchActivity : AppCompatActivity() {
                                     vehicelColor.text = it.getString("colour") ?: ""
                                     permanentAddress.text = it.getString("permanent_address") ?: ""
                                 }
-                            }
-                            jsonArray?.getJSONObject(0).let {
-
-                            }
                         }catch (e:Exception) {
                             e.printStackTrace()
                         }
