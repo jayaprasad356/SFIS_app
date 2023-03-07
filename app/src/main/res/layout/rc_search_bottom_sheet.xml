@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/cardview"
-    app:cardCornerRadius="16dp"
+    app:cardCornerRadius="@dimen/corner_radius"
     app:cardMaxElevation="7dp"
     app:cardElevation="6dp"
     app:cardBackgroundColor="@color/cardview"
@@ -19,7 +19,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Bike Registration Number"
+            android:text="Vehicle Number"
             android:layout_marginTop="30dp"
             android:layout_marginStart="20dp"
             android:fontFamily="@font/urbansemibold"
@@ -29,6 +29,7 @@
             android:id="@+id/edBikeNumber"
             android:layout_width="match_parent"
             android:layout_height="56dp"
+            android:padding="10dp"
             android:background="@drawable/ic_editbg"
             android:layout_marginHorizontal="20dp" />
 

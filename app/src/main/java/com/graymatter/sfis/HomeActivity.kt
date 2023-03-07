@@ -30,8 +30,13 @@ class HomeActivity : AppCompatActivity() {
             val btnSearch = it.findViewById(R.id.btnSearch) as Button?
 
             btnSearch?.setOnClickListener {
-                Intent(this,RcSearchActivity::class.java).also { intent->
-                    startActivity(intent)
+                if(edBikeNumber?.text.toString().isNotEmpty()) {
+                    Intent(this,RcSearchActivity::class.java).also { intent->
+                        intent.putExtra("bikeNumber",edBikeNumber!!.text.toString().trim())
+                        startActivity(intent)
+                    }
+                }else{
+                    edBikeNumber?.error = "Enter VehicleNumber"
                 }
             }
         }
